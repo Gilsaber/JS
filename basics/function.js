@@ -1,5 +1,6 @@
-function showAlert() {
-    console.log("Hello World");
+function show() {
+    var a = 10;
+    console.log(a);
 }
 
-showAlert();
+show();
