@@ -1,0 +1,10 @@
+var sum = function (a,b) {
+    return a + b;
+}
+
+function sum_increment(sum) {
+    return sum(3,4) + 1;
+}
+
+var result = sum_increment(sum);
+console.log(result);
